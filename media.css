@@ -13,7 +13,7 @@
       display: block; 
       font-size: 2em; 
   }
-  
+
   .nav-content ul li {
       display: none;
   }
@@ -132,7 +132,7 @@ body {
   }
 
   .membership-card {
-      width: 70%; 
+     width: 100%;  
   }
   .nav-content .nav-menu {
     display: none;
@@ -151,7 +151,7 @@ body {
   }
 
   .membership-card {
-      width: 60%; 
+      width: 100%; 
   }
   .nav-content .nav-menu {
     display: none;
