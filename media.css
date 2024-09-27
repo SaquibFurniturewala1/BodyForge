@@ -1,0 +1,159 @@
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+
+  .nav-content ul {
+      flex-direction: column; 
+      align-items: center; 
+      padding: 0; 
+  }
+  
+  .nav-menu {
+      display: block; 
+      font-size: 2em; 
+  }
+  
+  .nav-content ul li {
+      display: none;
+  }
+
+  .nav-content.active ul li {
+      display: block;
+  }
+
+  .head-text {
+    font-size: 0.7rem;
+  }
+  
+  .text-2 {
+    font-size: 0.6rem;
+  }
+
+  .sub-head-content h1 {
+      font-size: 2em; 
+      text-align: center; 
+  }
+
+  .services-cell {
+    flex: 1 1 40%; 
+    width: 100%;
+}
+
+  .membership-container {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      gap: 2rem;
+  }
+
+  .front {
+    font-size: 0.8rem;
+  }
+
+  .back h2  {
+    font-size: 0.8rem;
+  }
+
+  .back p {
+    font-size: 0.7rem;
+  }
+  
+  .back ul li {
+    font-size: 0.7rem;
+  }
+
+  .trainers-container {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 2rem;
+  }
+
+  .contact-form .form-group {
+      width: 100%; 
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr; 
+    text-align: center;
+}
+
+  .footer-links ul {
+      padding: 0;
+  }
+
+  .footer-social ul {
+      display: flex;
+      justify-content: center; 
+      padding: 0; 
+  }
+
+  .about-content h2, .about-info h2 {
+    font-size: 0.9rem;
+  }
+
+  .about-info p , .about-info ul li {
+    font-size: 0.7rem;
+  }
+}
+
+body {
+  font-size: 16px; 
+}
+
+/* For tablets (min-width: 768px and max-width: 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  body {
+      font-size: 14px; 
+  }
+
+  .services-cell {
+      flex: 1 1 45%; 
+  }
+
+  .membership-card {
+      width: 80%; 
+  }
+  .nav-content .nav-menu {
+    display: none;
+  }
+}
+
+/* For small desktops or large tablets (min-width: 1024px and max-width: 1439px) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+  body {
+      font-size: 15px; 
+  }
+
+  .services-cell {
+      flex: 1 1 30%; 
+  }
+
+  .membership-card {
+      width: 70%; 
+  }
+  .nav-content .nav-menu {
+    display: none;
+  }
+}
+
+/* For large desktops (min-width: 1440px) */
+@media only screen and (min-width: 1440px) {
+
+  body {
+      font-size: 16px; 
+  }
+
+  .services-cell {
+      flex: 1 1 20%; 
+  }
+
+  .membership-card {
+      width: 60%; 
+  }
+  .nav-content .nav-menu {
+    display: none;
+  }
+}
